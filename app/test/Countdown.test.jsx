@@ -33,7 +33,7 @@ describe('handleSetCountdown', () => {
 
 		setTimeout(() => {
 			expect(countdown.state.count).toBe(0);
-		}, 3000);
+		}, 3001);
 	});
 });
 
